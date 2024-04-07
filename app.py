@@ -48,13 +48,6 @@ from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler(feature_range=(0,1))
 
 train_arr=scaler.fit_transform(train)
-
-
-
-
-
-
-
 #load my model
 model=load_model('keras_model.h5')
 
